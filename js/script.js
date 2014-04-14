@@ -1,0 +1,1 @@
+var birthday = angular.module('Bday', ['ngAnimate', 'ui.router']);
