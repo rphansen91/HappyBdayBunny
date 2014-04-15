@@ -3,7 +3,7 @@ function greetingsCtrl($scope){
 		{
 			author:'Dennis',
 			img:'/img/greetings/dennis/dennis.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Ashley',
@@ -13,12 +13,12 @@ function greetingsCtrl($scope){
 		{
 			author:'Ali',
 			img:'/img/greetings/ali/ali.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Ryan',
 			img:'/img/greetings/ryan/ryan.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Garrett',
@@ -28,22 +28,23 @@ function greetingsCtrl($scope){
 		{
 			author:'Denise',
 			img:'/img/greetings/denise/denise.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'David',
 			img:'/img/greetings/david/david.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Danny',
 			img:'',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Susan',
 			img:'/img/greetings/susan/susan.jpg',
-			mes:''
+			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 	];
+	$scope.note=true;
 };
