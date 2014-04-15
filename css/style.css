@@ -17,7 +17,12 @@
 .fullwidthbanner-container .text {
   z-index: 0;
 }
-
+.pad15{
+  padding-top: 15px;
+}
+.pad30{
+  padding-top: 30px;
+}
 .pad50{
   padding-top: 50px;
 }
@@ -57,7 +62,7 @@ h1 {
   width: 360px;
 }
 .bday-wish p {
-  padding: 5px;
+  padding: 10px;
 }
 /* entire container, keeps perspective */
 
@@ -69,13 +74,13 @@ div[ui-view].ng-enter {
 
 
 .ng-hide-remove {
-    -webkit-animation: bounceIn 2.5s;
-    animation: bounceIn 2.5s;
+    -webkit-animation: bounceIn 3s;
+    animation: bounceIn 3s;
     display: block !important;
 }
  
 .ng-hide-add {
-    -webkit-animation: flipOutX 2.5s;
-    animation: flipOutX 2.5s;
+    -webkit-animation: flipOutX 1.5s;
+    animation: flipOutX 1.5s;
     display: block !important;
 }
