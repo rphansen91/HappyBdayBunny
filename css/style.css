@@ -1,4 +1,22 @@
 
+
+.fullwidthbanner-container {
+	width: 100%!important;
+	max-height: 550px!important;
+	position: relative;
+	padding: 0;
+	overflow: hidden!important;
+	margin:-35px 0 0px;
+}
+.fullwidthbanner-container .banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 9999;
+}
+.fullwidthbanner-container .text {
+  z-index: 0;
+}
 .pad50{
   padding-top: 50px;
 }
@@ -7,7 +25,7 @@
 }
 .slider {
   position: relative;
-  width: 100% cover;
+  width: 100%;
   height:100%;
 }
 .slide {
@@ -17,7 +35,7 @@
 }
 .arrows {
   position: absolute;
-  top: 10px;
+  top: 55px;
   right: 20px;
 }
 .arrows img {
@@ -48,13 +66,14 @@ div[ui-view].ng-enter {
 }
 
 
-.ng-hide-remove {
-    -webkit-animation: bounceIn 2.5s;
-    animation: bounceIn 2.5s;
+.ng-show-remove {
+    -webkit-animation: flipOutX 1.5s;
+    animation: flipOutX 1.5s;
+    display: block !important;
 }
  
-.ng-hide-add {
-    -webkit-animation: flipOutX 2.5s;
-    animation: flipOutX 2.5s;
+.ng-show-add {
+    -webkit-animation: bounceIn 1.5s;
+    animation: bounceIn 1.5s;
     display: block !important;
 }
