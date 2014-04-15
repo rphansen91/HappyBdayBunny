@@ -1,8 +1,8 @@
 <div class="fullwidthbanner-container">
   	<div ng-repeat="image in images" ng-show="image.visible">
-    	<img class="banner" ng-src="{{image.src}}" />
-    	<h1 class="text">{{image.title}}</h1>
-    	<h1 class="text">{{image.caption}}</h1>
+    	<img ng-src="{{image.src}}" />
+    	<h1>{{image.title}}</h1>
+    	<h1>{{image.caption}}</h1>
     	<button class="btn btn-success" ui-sref="{{image.state}}">{{image.btn}}</button>
   	</div>
   	<div class="arrows">

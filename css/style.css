@@ -17,6 +17,7 @@
 .fullwidthbanner-container .text {
   z-index: 0;
 }
+
 .pad50{
   padding-top: 50px;
 }
@@ -25,7 +26,7 @@
 }
 .slider {
   position: relative;
-  width: 100%;
+  width: 100% cover;
   height:100%;
 }
 .slide {
@@ -66,14 +67,15 @@ div[ui-view].ng-enter {
 }
 
 
-.ng-show-remove {
-    -webkit-animation: flipOutX 1.5s;
-    animation: flipOutX 1.5s;
+
+.ng-hide-remove {
+    -webkit-animation: bounceIn 2.5s;
+    animation: bounceIn 2.5s;
     display: block !important;
 }
  
-.ng-show-add {
-    -webkit-animation: bounceIn 1.5s;
-    animation: bounceIn 1.5s;
+.ng-hide-add {
+    -webkit-animation: flipOutX 2.5s;
+    animation: flipOutX 2.5s;
     display: block !important;
 }
