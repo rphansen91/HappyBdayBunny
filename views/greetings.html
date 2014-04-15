@@ -1,0 +1,20 @@
+<!-- GREETINGS PAGE -->
+<!-- IMAGE OF AHUTHOR  -->
+<!-- CLICK OR HOVER ON IMAGE FLIPS TO SHOW THE MESSAGE -->
+<div class="container">
+	<h1 class="text-center">GREETINGS</h1>
+	<div class="row">
+		<div class="col-xs-12 col-md-4 col-lg-4" ng-repeat="message in messages">
+			<div class="bday-wish" ng-click="note=!note">
+				<div ng-show="note">
+					<img class="img-responsive" ng-src="{{message.img}}">
+				</div>
+				<div ng-hide="note">
+					<p class="text-left">{{message.mes}}</p>
+				</div>
+			</div>
+			<h5 class="text-center">Love, {{message.author}}</h5>
+		</div>
+	</div>
+	<div class="pad50"></div>
+</div>

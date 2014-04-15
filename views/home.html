@@ -1,0 +1,19 @@
+<!-- HOME PAGE -->
+<!-- FRONT OF CARD 2 IMAGE SLIDESHOW  WITH GREETING -->
+
+<!-- FIRST IMAGE -->
+<!-- OPEN CARD TO BIRTHDAY GREETINGS STATE -->
+
+<!-- SECOND IMAGE  -->
+<!-- OPEN CARD TO PHOTOS STATE -->
+
+ <carousel>
+    <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.src}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h4>{{slide.title}}</h4>
+          <p>{{slide.caption}}</p>
+        </div>
+    </slide>
+</carousel>
+
