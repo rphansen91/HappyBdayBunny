@@ -5,7 +5,7 @@
 	<h1 class="text-center">GREETINGS</h1>
 	<div class="row">
 		<div class="col-xs-12 col-md-4 col-lg-4" ng-repeat="message in messages">
-			<div class="bday-wish" ng-click="note=!note">
+			<div class="bday-wish" ng-click="note=!note" ng-mouseenter="note=!note" ng-mouseleave="note=!note">
 				<div ng-show="note">
 					<img class="img-responsive" ng-src="{{message.img}}">
 				</div>

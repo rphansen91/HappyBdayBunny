@@ -74,13 +74,13 @@ div[ui-view].ng-enter {
 
 
 .ng-hide-remove {
-    -webkit-animation: bounceIn 3s;
-    animation: bounceIn 3s;
+    -webkit-animation: bounceIn 2s;
+    animation: bounceIn 2s;
     display: block !important;
 }
  
 .ng-hide-add {
-    -webkit-animation: flipOutX 1.5s;
-    animation: flipOutX 1.5s;
+    -webkit-animation: flipOutX 1s;
+    animation: flipOutX 1s;
     display: block !important;
 }
