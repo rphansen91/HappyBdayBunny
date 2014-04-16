@@ -97,9 +97,12 @@ margin-top: 250px;
 }
 .front-btn:hover {
   box-shadow: none;
+   background-color: white;
+   color: purple;
 }
 .bday-wish {
-  background-color: #222222;
+  background-color: purple;
+  border-radius: 5px;
   color: white;
   font-size: 22px;
   height: 273px;
