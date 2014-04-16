@@ -2,7 +2,7 @@
 
 .fullwidthbanner-container {
 	width: 100%!important;
-	max-height: 550px!important;
+	height: 650px!important;
 	position: relative;
 	padding: 0;
 	overflow: hidden!important;
@@ -55,7 +55,9 @@ h1 {
 }
 #front-cover{
   background-image: url(/HappyBdayBunny/img/home/family-portrait.jpg);
+  background-size: cover;
 }
+
 .bday-wish {
   background-color: #222222;
   color: white;
