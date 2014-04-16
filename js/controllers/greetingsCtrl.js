@@ -2,7 +2,7 @@ function greetingsCtrl($scope){
 	$scope.messages = [
 		{
 			author:'Dennis',
-			img:'/HappyBdayBunny/#/img/greetings/dennis/dennis.jpg',
+			img:'/HappyBdayBunny/img/greetings/dennis/dennis.jpg',
 			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
