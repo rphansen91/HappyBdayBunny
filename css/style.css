@@ -64,6 +64,13 @@ color: white;
 text-shadow: 0.1em 0.1em #333;
 margin-top: 250px;
 }
+#front-cover p{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+  font-family: 'Averia Serif Libre';
+}
 .bday-wish {
   background-color: #222222;
   color: white;
