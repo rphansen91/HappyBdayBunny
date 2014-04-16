@@ -1,5 +1,5 @@
 function sliderCtrl($scope) {
-	$scope.slides = 
+	$scope.slide = 
 		{
 			src:'/HappyBdayBunny/img/home/wedding.jpg',
 			title:'HAPPY BIRTHDAY',
