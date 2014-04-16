@@ -76,6 +76,11 @@ margin-top: 250px;
     animation: bounceIn 2s;
     display: block !important;
 }
+.front-capt {
+  -webkit-animation: slideInRight 2s;
+    animation: slideInRight 2s;
+    display: block !important;
+}
 .bday-wish {
   background-color: #222222;
   color: white;
