@@ -110,7 +110,8 @@ margin-top: 250px;
 }
 .bday-wish p {
   padding: 15px;
-  
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 /* entire container, keeps perspective */
 
