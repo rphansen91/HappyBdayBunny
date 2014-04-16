@@ -58,7 +58,11 @@ h1 {
   background-size: cover;
 }
 #front-cover h1 {
-  
+  font-size: 64px;
+font-family: cursive;
+color: white;
+text-shadow: 0.1em 0.1em #333;
+margin-top: 250px;
 }
 .bday-wish {
   background-color: #222222;

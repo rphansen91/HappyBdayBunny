@@ -4,6 +4,7 @@ function sliderCtrl($scope) {
 			src:'/HappyBdayBunny/img/home/family-portrait.jpg',
 			title:'HAPPY BIRTHDAY',
 			state:'greetings',
+            caption:'Have a great day today and a wonderful year ahead!',
 			btn:'GREETINGS'
 		};
 
