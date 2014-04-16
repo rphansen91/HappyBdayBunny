@@ -22,7 +22,7 @@ function greetingsCtrl($scope){
 		},
 		{
 			author:'Garrett',
-			img:'/HappyBdayBunny/#/img/greetings/garrett/garrett.jpg',
+			img:'../img/greetings/garrett/garrett.jpg',
 			mes:'Happy birthday Benita! Hope it is a great one! Hope you can spend some time enjoying your new garden!!'
 		},
 		{
