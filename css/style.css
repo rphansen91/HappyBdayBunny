@@ -121,8 +121,8 @@ div[ui-view].ng-enter {
 
 
 .ng-hide-remove {
-    -webkit-animation: bounceIn 2s;
-    animation: bounceIn 2s;
+    -webkit-animation: bounceIn 1.5s;
+    animation: bounceIn 1.5s;
     display: block !important;
 }
  
