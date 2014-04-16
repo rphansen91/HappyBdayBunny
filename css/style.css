@@ -84,8 +84,19 @@ margin-top: 250px;
 }
 .front-btn {
   -webkit-animation: slideInRight 3s;
-    animation: slideInRight 3s;
-    display: block !important;
+  animation: slideInRight 3s;
+  display: block !important;
+  width: 10%;
+  margin-left: 45%;
+  background-color: white;
+  border: none;
+  box-shadow: .2em .2em #333;
+  color: purple;
+  font-size: 24px;
+  font-family: 'Montserrat';
+}
+.front-btn:hover {
+  box-shadow: none;
 }
 .bday-wish {
   background-color: #222222;
