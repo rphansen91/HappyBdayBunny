@@ -83,8 +83,8 @@ margin-top: 250px;
     display: block !important;
 }
 .front-btn {
-  -webkit-animation: flipOutX 3s;
-    animation: flipOutX 3s;
+  -webkit-animation: slideInRight 3s;
+    animation: slideInRight 3s;
     display: block !important;
 }
 .bday-wish {
