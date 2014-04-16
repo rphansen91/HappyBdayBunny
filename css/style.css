@@ -82,6 +82,11 @@ margin-top: 250px;
     animation: slideInRight 3s;
     display: block !important;
 }
+.front-btn {
+  -webkit-animation: flipOutX 3s;
+    animation: flipOutX 3s;
+    display: block !important;
+}
 .bday-wish {
   background-color: #222222;
   color: white;
