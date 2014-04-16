@@ -61,7 +61,7 @@ h1 {
   font-size: 64px;
 font-family: cursive;
 color: white;
-text-shadow: 0.1em 0.1em #333;
+text-shadow: 0.1em 0.1em #3C2554;
 margin-top: 250px;
 }
 #front-cover p{
@@ -70,7 +70,7 @@ margin-top: 250px;
   color: white;
   font-style: italic;
   font-family: 'Averia Serif Libre';
-  text-shadow: 0.1em 0.1em #333;
+  text-shadow: 0.1em 0.1em #3C2554;
 }
 .front-title {
   -webkit-animation: bounceIn 2s;
@@ -90,8 +90,8 @@ margin-top: 250px;
   margin-left: 45%;
   background-color: white;
   border: none;
-  box-shadow: 0em 0em .2em .2em #333;
-  color: purple;
+  box-shadow: 0em 0em .2em .2em #3C2554;
+  color: #3C2554;
   font-size: 24px;
   font-family: 'Montserrat';
 }
@@ -101,7 +101,7 @@ margin-top: 250px;
    color: purple;
 }
 .bday-wish {
-  background-color: purple;
+  background-color: #3C2554;
   border-radius: 5px;
   color: white;
   font-size: 22px;
