@@ -77,8 +77,8 @@ margin-top: 250px;
     display: block !important;
 }
 .front-capt {
-  -webkit-animation: slideInRight 2s;
-    animation: slideInRight 2s;
+  -webkit-animation: swing 3s;
+    animation: swing 3s;
     display: block !important;
 }
 .bday-wish {
