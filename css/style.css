@@ -53,7 +53,9 @@ h1 {
   font-size: 40px;
   color: #222;
 }
-
+#front-cover{
+  background-image: url(/HappyBdayBunny/img/home/family-portrait.jpg);
+}
 .bday-wish {
   background-color: #222222;
   color: white;
