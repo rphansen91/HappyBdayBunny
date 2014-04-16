@@ -70,6 +70,7 @@ margin-top: 250px;
   color: white;
   font-style: italic;
   font-family: 'Averia Serif Libre';
+  text-shadow: 0.1em 0.1em #333;
 }
 .front-title {
   -webkit-animation: bounceIn 2s;
@@ -77,8 +78,8 @@ margin-top: 250px;
     display: block !important;
 }
 .front-capt {
-  -webkit-animation: swing 3s;
-    animation: swing 3s;
+  -webkit-animation: slideInRight 3s;
+    animation: slideInRight 3s;
     display: block !important;
 }
 .bday-wish {
