@@ -10,8 +10,13 @@
 					<img class="img-thumbnail" ng-src="{{message.img}}">
 				</div>
 				<div ng-hide="note">
-					<p class="text-left">{{message.mes}}</p>
-					<p class="text-center">Love, {{message.author}}</p>
+					<div ng-if="!message.mes">
+						{{message.vid}}
+					</div>
+					<div ng-if="message.mes">
+						<p class="text-left">{{message.mes}}</p>
+						<p class="text-center">Love, {{message.author}}</p>
+					</div>
 				</div>
 			</div>	
 			<div class="pad30"></div>

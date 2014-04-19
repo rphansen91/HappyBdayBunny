@@ -28,9 +28,9 @@ function greetingsCtrl($scope){
 		},
 		{
 			author:'Dave & Sue',
-			img:'/HappyBdayBunny/img/greetings/david/david.jpg',
+			img:'/HappyBdayBunny/img/greetings/david/davensue.jpg',
 			mes:false,
-			vid:''
+			vid:'<iframe src="//www.youtube.com/embed/talbHP6HW7E" frameborder="0" allowfullscreen></iframe>'
 		}
 	];
 	$scope.note=true;
