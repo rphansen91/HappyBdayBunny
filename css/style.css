@@ -57,6 +57,14 @@ h1 {
   background-image: url(/HappyBdayBunny/img/home/family-portrait.jpg);
   background-size: cover;
 }
+@media (max-width: 700px) {
+  #front-cover{
+    background-position-x: -375px; 
+  }
+  #front-cover h1 {
+    margin-top: 175px;
+  }
+}
 #front-cover h1 {
   font-size: 64px;
 font-family: cursive;
