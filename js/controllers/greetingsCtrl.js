@@ -1,24 +1,19 @@
 function greetingsCtrl($scope){
 	$scope.messages = [
 		{
-			author:'Dennis',
-			img:'/HappyBdayBunny/img/greetings/dennis/dennis.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
+			author:'Ryan',
+			img:'/HappyBdayBunny/img/greetings/ryan/ryan.jpg',
+			mes:"Happy Bithday Mom! I wanted to get everyone together to wish you a happy birthday! Miss you, and I hope you enjoy your e-card!"
+		},
+		{
+			author:'Ali',
+			img:'/HappyBdayBunny/img/greetings/ali/ali.jpg',
+			mes:'Happy Birthday Mommy! I hope you hsve a great day today. I miss you very much and wish I could spend the day with you but I will see you very soon. Ray says "You are beautiful and I love you. Never change."' 
 		},
 		{
 			author:'Ashley',
 			img:'/HappyBdayBunny/img/greetings/ashley/ashley.jpg',
 			mes:'Happy birthday to an amazing woman I am lucky to call Mom! I hope you have the best day, you deserve nothing less!  Wish we could be there to celebrate with you!'
-		},
-		{
-			author:'Ali',
-			img:'/HappyBdayBunny/img/greetings/ali/ali.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
-		},
-		{
-			author:'Ryan',
-			img:'/HappyBdayBunny/img/greetings/ryan/ryan.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
 		},
 		{
 			author:'Garrett',
@@ -28,18 +23,15 @@ function greetingsCtrl($scope){
 		{
 			author:'Denise',
 			img:'/HappyBdayBunny/img/greetings/denise/denise.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
+			mes:false,
+			vid:''
 		},
 		{
-			author:'David',
+			author:'Dave & Sue',
 			img:'/HappyBdayBunny/img/greetings/david/david.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
-		},
-		{
-			author:'Susan',
-			img:'/HappyBdayBunny/img/greetings/susan/susan.jpg',
-			mes:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cupiditate, facilis, ullam obcaecati iure amet nemo repellendus quis nesciunt dolorem eum vel inventore!'
-		},
+			mes:false,
+			vid:''
+		}
 	];
 	$scope.note=true;
 };
