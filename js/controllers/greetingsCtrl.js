@@ -24,13 +24,13 @@ function greetingsCtrl($scope){
 			author:'Denise',
 			img:'/HappyBdayBunny/img/greetings/denise/denise.jpg',
 			mes:false,
-			vid:'//www.youtube.com/embed/1ZD_XdXh6KM'
+			vid:'http://www.youtube.com/embed/1ZD_XdXh6KM'
 		},
 		{
 			author:'Dave & Sue',
 			img:'/HappyBdayBunny/img/greetings/david/davensue.jpg',
 			mes:false,
-			vid:'//www.youtube.com/embed/talbHP6HW7E'
+			vid:'http://www.youtube.com/embed/talbHP6HW7E'
 		}
 	];
 	$scope.note=true;
