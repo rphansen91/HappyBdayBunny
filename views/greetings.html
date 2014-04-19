@@ -6,7 +6,7 @@
 	<div class="pad30"></div>
 		<div class="col-xs-12 col-md-4 col-lg-4" ng-repeat="message in messages">
 			<div ng-if="!message.mes">
-				<iframe width="360" height="273" src="{{message.vid}}" frameborder="0"></iframe>
+				<iframe width="360" height="273" ng-src="{{message.vid}}" frameborder="0"></iframe>
 			</div>
 			<div ng-if="message.mes">
 				<div class="bday-wish" ng-click="note=!note" ng-mouseenter="note=!note" ng-mouseleave="note=!note">
