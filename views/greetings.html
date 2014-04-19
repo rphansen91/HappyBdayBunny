@@ -6,14 +6,14 @@
 	<div class="pad30"></div>
 		<div class="col-xs-12 col-md-4 col-lg-4" ng-repeat="message in messages">
 			<div class="bday-wish" ng-click="note=!note" ng-mouseenter="note=!note" ng-mouseleave="note=!note">
-				<div ng-show="note">
-					<img class="img-thumbnail" ng-src="{{message.img}}">
+				<div ng-if="!message.mes">
+					<iframe width="360" height="273" src={{message.vid}} frameborder="0"></iframe>
 				</div>
-				<div ng-hide="note">
-					<div ng-if="!message.mes">
-						<iframe width="360" height="273" src={{message.vid}} frameborder="0"></iframe>
+				<div ng-if="message.mes">
+					<div ng-show="note">
+						<img class="img-thumbnail" ng-src="{{message.img}}">
 					</div>
-					<div ng-if="message.mes">
+					<div ng-hide="note">
 						<p class="text-left">{{message.mes}}</p>
 						<p class="text-center">Love, {{message.author}}</p>
 					</div>
