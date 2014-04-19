@@ -59,7 +59,7 @@ h1 {
 }
 @media (max-width: 700px) and (min-width: 601px) {
   #front-cover{
-    background-position-x: -200px!important; 
+    background-position-x: -250px!important; 
   }
   #front-cover h1 {
     margin-top: 175px!important;
@@ -68,6 +68,9 @@ h1 {
 @media (max-width: 600px) {
   #front-cover{
     background-position-x: -375px!important; 
+  }
+  #front-cover h1 {
+    margin-top: 175px!important;
   }
 }
 #front-cover h1 {
