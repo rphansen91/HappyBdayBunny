@@ -30,7 +30,7 @@ function greetingsCtrl($scope){
 			author:'Dave & Sue',
 			img:'/HappyBdayBunny/img/greetings/david/davensue.jpg',
 			mes:false,
-			vid:'<iframe src="//www.youtube.com/embed/talbHP6HW7E" frameborder="0" allowfullscreen></iframe>'
+			vid:'//www.youtube.com/embed/talbHP6HW7E'
 		}
 	];
 	$scope.note=true;
