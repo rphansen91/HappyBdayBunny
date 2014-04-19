@@ -8,7 +8,7 @@ function greetingsCtrl($scope){
 		{
 			author:'Ali',
 			img:'/HappyBdayBunny/img/greetings/ali/ali.jpg',
-			mes:'Happy Birthday Mommy! I hope you hsve a great day today. I miss you very much and wish I could spend the day with you but I will see you very soon. Ray says, "You are beautiful and I love you. Never change."' 
+			mes:'Happy Birthday Mommy! I hope you have a great day today. I miss you very much and wish I could spend the day with you but I will see you very soon. Ray says, "You are beautiful and I love you. Never change."' 
 		},
 		{
 			author:'Ashley',
